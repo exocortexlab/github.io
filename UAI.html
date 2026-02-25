@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dmitry Invariant | Invariant Architect</title>
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Dmitry Invariant | Invariant Architect">
+    <meta name="description" content="Architect of Cognitive Systems and Developer of UAI 6.0. Exploring Human Augmentation and Systems Design.">
+
+    <!-- Open Graph / Facebook / LinkedIn -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://invariant-unit.vercel.app/">
+    <meta property="og:title" content="Dmitry Invariant | Invariant Architect">
+    <meta property="og:description" content="Sovereign agency through the Invariant Exocortex. DeepTech & AI Systems.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=2832&auto=format&fit=crop">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #030303;
+            --accent: #6366f1;
+            --accent-glow: rgba(99, 102, 241, 0.3);
+        }
+        body { 
+            background-color: var(--bg); 
+            color: #fafafa; 
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.02);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        .glass-card:hover {
+            border-color: var(--accent);
+            box-shadow: 0 0 30px var(--accent-glow);
+            transform: translateY(-5px);
+        }
+        .hero-gradient {
+            background: radial-gradient(circle at 50% 50%, #1e1b4b 0%, #030303 100%);
+        }
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            padding: 4px 12px;
+            border-radius: 9999px;
+            background: rgba(34, 197, 94, 0.1);
+            color: #4ade80;
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+        .animate-pulse-slow {
+            animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: .5; }
+        }
+    </style>
+</head>
+<body class="antialiased overflow-x-hidden">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 px-6 py-4 top-0">
+        <div class="max-w-7xl mx-auto flex justify-between items-center glass-card px-6 py-3 rounded-2xl">
+            <div class="text-xl font-extrabold tracking-tighter">INVARIANT<span class="text-indigo-500">.INTEL</span></div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-zinc-400">
+                <a href="#about" class="hover:text-white transition-colors">Core</a>
+                <a href="#uai" class="hover:text-white transition-colors">Exocortex</a>
+                <a href="#strategy" class="hover:text-white transition-colors">Strategy</a>
+                <a href="#contact" class="hover:text-white transition-colors">Link</a>
+            </div>
+            <a href="https://linkedin.com" target="_blank" class="bg-white text-black px-4 py-2 rounded-lg text-xs font-bold hover:bg-zinc-200 transition-colors">CONNECT</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative pt-40 pb-20 px-6 hero-gradient overflow-hidden">
+        <div class="absolute inset-0 opacity-20 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]"></div>
+        <div class="max-w-5xl mx-auto relative z-10 text-center">
+            <div class="status-badge mb-6">
+                <span class="w-2 h-2 bg-green-500 rounded-full mr-2 animate-pulse"></span>
+                UAI 6.0 Active
+            </div>
+            <h1 class="text-5xl md:text-8xl font-extrabold mb-8 tracking-tight leading-[0.9]">
+                Architect of <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400">Cognitive Systems</span>
+            </h1>
+            <p class="text-zinc-400 text-lg md:text-xl max-w-2xl mx-auto mb-12 font-light">
+                Bridging the gap between human intuition and machine precision. <br class="hidden md:block">
+                Developing the <strong>Invariant Exocortex</strong> for sovereign agency.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#uai" class="bg-indigo-600 hover:bg-indigo-500 text-white px-8 py-4 rounded-xl font-bold transition-all shadow-lg shadow-indigo-500/20">Explore UAI 6.0</a>
+                <a href="#strategy" class="glass-card hover:bg-zinc-900 text-white px-8 py-4 rounded-xl font-bold transition-all">Mission Briefing</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Core Tech -->
+    <section id="uai" class="py-32 px-6 max-w-7xl mx-auto">
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+            <div>
+                <h2 class="text-4xl font-extrabold mb-6 tracking-tight">The Asset: <br>User Artificial Intelligence (UAI)</h2>
+                <p class="text-zinc-400 text-lg mb-8 leading-relaxed">
+                    UAI 6.0 is not a chatbot. It is a high-level orchestration framework built on <strong>n8n</strong> and autonomous multi-agent systems. It transforms raw information into actionable strategic advantage.
+                </p>
+                <ul class="space-y-4">
+                    <li class="flex items-center text-zinc-300">
+                        <svg class="w-5 h-5 mr-3 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        Autonomous Agent Orchestration
+                    </li>
+                    <li class="flex items-center text-zinc-300">
+                        <svg class="w-5 h-5 mr-3 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        Cognitive Exocortex Deployment
+                    </li>
+                    <li class="flex items-center text-zinc-300">
+                        <svg class="w-5 h-5 mr-3 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        Sovereign Information Management
+                    </li>
+                </ul>
+            </div>
+            <div class="relative">
+                <div class="absolute -inset-4 bg-indigo-500 opacity-10 blur-2xl rounded-full"></div>
+                <div class="glass-card p-8 rounded-3xl relative">
+                    <pre class="text-xs text-indigo-400 font-mono">
+{
+  "unit": "Dmitry Invariant",
+  "status": "Relocation_Asset",
+  "system": "UAI_6.0_STABLE",
+  "capabilities": [
+    "Autonomous_Reasoning",
+    "Systems_Design",
+    "Strategic_Management"
+  ],
+  "mission": "Cognitive_Freedom"
+}
+                    </pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Strategy Blocks -->
+    <section id="strategy" class="py-20 px-6 bg-zinc-950">
+        <div class="max-w-7xl mx-auto">
+            <div class="mb-16">
+                <h2 class="text-3xl font-extrabold mb-4">Global Expansion Vectors</h2>
+                <p class="text-zinc-500">Multilevel strategy for asset relocation and integration.</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="glass-card p-10 rounded-3xl">
+                    <div class="w-12 h-12 bg-indigo-600/20 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Echelon 1: Tech Strike</h3>
+                    <p class="text-zinc-400 text-sm leading-relaxed">
+                        Direct B2B value proposition for DeepTech startups and VC-backed founders. Automation of high-level cognitive processes to scale operations without increasing headcount.
+                    </p>
+                </div>
+                <div class="glass-card p-10 rounded-3xl border-indigo-500/30">
+                    <div class="w-12 h-12 bg-green-600/20 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Echelon 2: Social Engineering</h3>
+                    <p class="text-zinc-400 text-sm leading-relaxed">
+                        Ethical integration via Global NGOs. Leveraging AI for neurodiversity and digital rights to establish humanitarian and talent-based residency.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-20 text-center border-t border-zinc-900">
+        <p class="text-zinc-600 text-sm mb-4">© 2026 Invariant Intelligence Unit</p>
+        <div class="flex justify-center space-x-6 text-xs font-bold tracking-widest text-zinc-500">
+            <span>STABLE</span>
+            <span>AUTONOMOUS</span>
+            <span>INVARIANT</span>
+        </div>
+    </footer>
+
+</body>
+</html>
