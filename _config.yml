@@ -1,0 +1,9 @@
+title: Invariant Exocortex
+remote_theme: jekyll/minima # Или оставьте пустым, если будете писать свой CSS
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Настройки для ваших метаданных
+author: Dmitry Invariant
+description: "Architect of Cognitive Systems | UAI 6.0"
